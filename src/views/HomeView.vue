@@ -92,7 +92,8 @@
         <h3 class="paragraph-title">Submission Guidelines</h3>
         <div>
           <ul>
-            <li>ACS-LLM welcomes submissions of papers (in PDF format) with up to 4 pages excluding references, using<br>
+            <li>ACS-LLM welcomes submissions of papers (in PDF format) with up to 4 pages excluding references,
+              using<br>
               <a target="_blank" href="https://www.iscaconf.org/isca2025/submit/guidelines.php" class="link">
                 the ISCA latex template as main conference
               </a>, in English.
@@ -119,6 +120,8 @@
         <p class="p">
           The 1st ACS-LLM is co-hosted with ISCA 2025. Information on registration for the workshops can be found
           <a target="_blank" href="https://iscaconf.org/isca2025/" class="link">here</a>.
+          For more information, please contact us at
+          <a target="_blank" href="mailto:junsun@smu.edu.sg" class="link">junsun@smu.edu.sg</a>
         </p>
       </div>
     </div>
