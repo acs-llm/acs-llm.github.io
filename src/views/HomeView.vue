@@ -120,7 +120,7 @@
         <p class="p">
           The 1st ACS-LLM is co-hosted with ISCA 2025. Information on registration for the workshops can be found
           <a target="_blank" href="https://iscaconf.org/isca2025/" class="link">here</a>.
-          For more information, please contact us at
+         <br> For more information, please contact us at
           <a target="_blank" href="mailto:junsun@smu.edu.sg" class="link">junsun@smu.edu.sg</a>
         </p>
       </div>
