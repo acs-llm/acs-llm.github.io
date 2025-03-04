@@ -1,0 +1,44 @@
+@import './base.css';
+
+#app {
+  height: 100%;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  word-break: break-all;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.title1 {
+  color: #040a3f;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title2 {
+  color: #0b5394;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.p {
+  color: #000;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.location {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-size: 14px;
+}
