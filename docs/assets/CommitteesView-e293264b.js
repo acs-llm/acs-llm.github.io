@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _}from"./index-79d9c5f9.js";const s={},c={class:"committees"};function o(n,a){return t(),_("div",c," committees ")}const m=e(s,[["render",o],["__scopeId","data-v-ef089368"]]);export{m as default};
