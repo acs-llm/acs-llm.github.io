@@ -5,6 +5,14 @@
         <div class="text">
           <h1 class="title font-lato">The 1st Workshop on AI Cluster Systems for LLMs (ACS-LLM)</h1>
           <h3 class="subtitle">Joint Workshop Co-located with ISCA 2025</h3>
+          <div class="tip font-merri">
+            <el-icon>
+              <Location />
+            </el-icon>
+            <a target="_blank"
+               href="https://www.google.com/maps/place/Waseda+University/@35.7087377,139.7170736,17z/data=!3m1!4b1!4m6!3m5!1s0x60188d1a4869b805:0x11e214c5de0808a8!8m2!3d35.7087334!4d139.7196485!16zL20vMDIxMnpw?hl=en&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
+               class="location">Waseda University</a>
+          </div>
           <div class="tip font-merri">Tokyo, Japan, June 21st, 2025</div>
         </div>
         <div class="scroll-buttons">
@@ -36,28 +44,34 @@
         </p>
         <ul>
           <li>
-            <strong>Mechanisms and Principles: </strong>Exploring the latest operators, model architectures, and parallel algorithms, and
+            <strong>Mechanisms and Principles: </strong>Exploring the latest operators, model architectures, and
+            parallel algorithms, and
             analysing their effects on computing power, network, and memory resources during training and inference.
           </li>
           <li>
-            <strong>Evaluation and Measurement: </strong>Conducting experiments to assess the performance and reliability of large-scale
+            <strong>Evaluation and Measurement: </strong>Conducting experiments to assess the performance and
+            reliability of large-scale
             cluster environments.
           </li>
           <li>
-            <strong>Modeling and Simulation: </strong>Building high-fidelity simulation environments for AI cluster systems to model
+            <strong>Modeling and Simulation: </strong>Building high-fidelity simulation environments for AI cluster
+            systems to model
             resource consumption and performance during LLM training and inference.
           </li>
           <li>
-            <strong>Anomaly Detection: </strong>Developing methods to detect anomalies in AI cluster training and inference processes,
+            <strong>Anomaly Detection: </strong>Developing methods to detect anomalies in AI cluster training and
+            inference processes,
             such as performance anomalies, accuracy deviations, and discrepancies from ground truth, while evaluating
             intermediate steps in model training and inference.
           </li>
           <li>
-            <strong>Testing and Evaluation Metrics: </strong>Designing robust testing methodologies and metrics to validate the accuracy
+            <strong>Testing and Evaluation Metrics: </strong>Designing robust testing methodologies and metrics to
+            validate the accuracy
             of AI cluster outputs and analyse how training uncertainties in LLMs affect overall accuracy.
           </li>
           <li>
-            <strong>State Construction and Control: </strong>Developing methods for constructing and pre-configuring intermediate states
+            <strong>State Construction and Control: </strong>Developing methods for constructing and pre-configuring
+            intermediate states
             in AI cluster training and inference processes, as well as mechanisms for controlling states during model
             training steps.
           </li>
@@ -78,13 +92,25 @@
         <h3 class="paragraph-title">Submission Guidelines</h3>
         <div>
           <ul>
-            <li>ACS-LLM welcomes submissions of papers (in PDF format) with up to 4 pages excluding references, <br>using
-              <a target="_blank" href="https://www.iscaconf.org/isca2025/submit/ISCA2025ACMtemplate.zip" class="link">the ISCA latex template</a>, in English.</li>
-            <li>Submissions should state the research problem, motivation, and technical contribution. Papers can present
-              work in progress, exploratory/preliminary research or already published work.</li>
+            <li>ACS-LLM welcomes submissions of papers (in PDF format) with up to 4 pages excluding references, using<br>
+              <a target="_blank" href="https://www.iscaconf.org/isca2025/submit/guidelines.php" class="link">
+                the ISCA latex template as main conference
+              </a>, in English.
+            </li>
+            <li>Submissions should state the research problem, motivation, and technical contribution. Papers can
+              present
+              work in progress, exploratory/preliminary research or already published work.
+            </li>
             <li>Submissions will be assessed based on novelty, technical quality, potential impact, interest, clarity,
-              relevance, and reproducibility.</li>
+              relevance, and reproducibility.
+            </li>
             <li>For each accepted paper, at least one author must attend and present the paper.</li>
+            <li> All submissions must be made via the
+              <a target="_blank" href="https://easychair.org/conferences?conf=acsllm2025" class="link">
+                following link
+              </a>
+              by April 16th, 2025.
+            </li>
           </ul>
         </div>
       </div>
@@ -102,6 +128,7 @@
 
 <script setup lang="ts">
 import { nextTick, ref } from 'vue'
+import { Location } from '@element-plus/icons-vue'
 
 const scrollTarget = ref()
 
@@ -223,6 +250,7 @@ const scrollToTarget = async (id: string) => {
 
     .papers-content {
       margin: 10rem 0;
+
       .mark-red {
         color: #ff0000;
         font-weight: bold;
