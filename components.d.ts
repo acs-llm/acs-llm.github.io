@@ -15,6 +15,7 @@ declare module 'vue' {
     ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TheBanners: typeof import('./src/components/TheBanners.vue')['default']
     TheHeader: typeof import('./src/components/TheHeader.vue')['default']
   }
 }

@@ -2,7 +2,7 @@
   <el-affix>
     <el-menu class="menu" mode="horizontal" router :default-active="route.path">
       <div class="logo-content">
-        logo
+        ACS-LLM Workshop
       </div>
       <div class="menu-right">
         <el-menu-item index="/">HOME</el-menu-item>
@@ -25,15 +25,20 @@ const route = useRoute()
   padding: 0 2rem;
   justify-content: space-between;
   align-items: center;
+
   .logo-content {
     display: flex;
     align-items: center;
+    font-weight: bold;
+    font-size: 2.2rem;
   }
+
   .logo-image {
     height: 40px; // 调整这个值以适应您的图片和设计需求
     width: auto;
     object-fit: contain;
   }
+
   .logo-image-time {
     height: 30px;
     width: auto;

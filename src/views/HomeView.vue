@@ -120,7 +120,7 @@
         <p class="p">
           The 1st ACS-LLM is co-hosted with ISCA 2025. Information on registration for the workshops can be found
           <a target="_blank" href="https://iscaconf.org/isca2025/" class="link">here</a>.
-         <br> For more information, please contact us at
+          <br> For more information, please contact us at
           <a target="_blank" href="mailto:junsun@smu.edu.sg" class="link">junsun@smu.edu.sg</a>
         </p>
       </div>
@@ -189,6 +189,7 @@ const scrollToTarget = async (id: string) => {
           font-size: 2.8rem;
           color: #f3f3f3;
           font-style: italic;
+          font-weight: 400;
 
           a {
             color: #fff;
