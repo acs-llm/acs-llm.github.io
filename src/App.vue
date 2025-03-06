@@ -2,8 +2,8 @@
   <div class="common-layout" ref="layout">
     <TheHeader />
 
-    <TheBanners v-if="path !== '/'" />
-    <el-scrollbar :class="[{bannerHeight : path !== '/', homeHeight : path === '/'}]">
+    <el-scrollbar>
+      <TheBanners v-if="path !== '/'" />
       <RouterView />
     </el-scrollbar>
   </div>
@@ -33,12 +33,8 @@ watch(
 .common-layout {
   height: 100%;
 
-  .homeHeight {
+  .el-scrollbar {
     height: calc(100% - 60px);
-  }
-
-  .bannerHeight {
-    height: calc(100% - 360px);
   }
 }
 </style>

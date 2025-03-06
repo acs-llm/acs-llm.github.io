@@ -36,6 +36,7 @@ import { Location } from '@element-plus/icons-vue'
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 
     .content {
       position: relative;
@@ -70,16 +71,15 @@ import { Location } from '@element-plus/icons-vue'
     }
 
   }
-}
-
-.text::before {
-  content: "";
-  position: absolute;
-  top: 60px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  height: 300px;
+  .text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 300px;
+  }
 }
 </style>

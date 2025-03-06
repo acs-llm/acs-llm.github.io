@@ -4,7 +4,7 @@
       <div class="title1 font-merri">Organizing Committee</div>
       <div class="title2 section-title">Program Co-Chairs</div>
       <div class="text-content">
-        <img src="../assets/image/photos/Jun_Sun.jpg" style="width:200px" alt="">
+        <img src="../assets/image/photos/sun_jun.jpg" style="width:200px" alt="">
         <p class="pa-header p">
           <a target="_blank" href="https://faculty.smu.edu.sg/profile/sun-jun-6816" class="link">Prof. SUN Jun</a>,
           Professor of Computer Science at Singapore Management University. His research
