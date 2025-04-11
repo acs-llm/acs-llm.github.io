@@ -14,7 +14,7 @@
               <img class="icon-item" src="../assets/image/icon/globe.svg" alt="" />
             </a>
             <a :href="speaker.academicPage" target="_blank">
-              <img style="margin-left: 5px" class="icon-item" src="../assets/image/icon/google.svg" alt="" />
+              <img class="icon-item" src="../assets/image/icon/google.svg" alt="" />
             </a>
           </div>
         </div>
@@ -148,6 +148,9 @@ const getImageUrl = (name: string) => {
 
     .icon {
       height: 20px;
+      display: flex;
+      gap: 25px;
+      justify-content: center;
 
       .icon-item {
         height: 18px;
