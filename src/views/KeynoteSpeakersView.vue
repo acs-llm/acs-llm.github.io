@@ -95,6 +95,10 @@ const speakers = [
     academicPage: 'https://scholar.google.com/citations?user=C3fmEegAAAAJ&hl=en'
   }
 ]
+
+const getImageUrl = (name: string) => {
+  return new URL(`../assets/image/photos/${name}`, import.meta.url).href
+}
 </script>
 
 <style lang="less" scoped>
