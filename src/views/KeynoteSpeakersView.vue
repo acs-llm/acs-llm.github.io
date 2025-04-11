@@ -40,7 +40,6 @@
 <script setup lang="ts">
 const speakers = [
   {
-    id: 'Stefanos_Kaxiras',
     name: 'Stefanos Kaxiras, Uppsala University',
     photo: 'Stefanos Kaxiras.jpg',
     title: '',
@@ -51,7 +50,6 @@ const speakers = [
     academicPage: 'https://scholar.google.com/citations?user=-FYgbQwAAAAJ&hl=en'
   },
   {
-    id: 'Bingsheng_He',
     name: 'Bingsheng He, National University of Singapore',
     photo: 'Bingsheng He.jpg',
     title: '',
@@ -62,7 +60,6 @@ const speakers = [
     academicPage: 'https://scholar.google.com/citations?user=_S92MLYAAAAJ&hl=zh-CN'
   },
   {
-    id: 'Heming_Cui',
     name: 'Heming Cui, The University of Hong Kong',
     photo: 'Heming Cui.jpg',
     title: '',
@@ -73,7 +70,6 @@ const speakers = [
     academicPage: 'https://scholar.google.com/citations?user=lW9bpFIAAAAJ&hl=zh-CN'
   },
   {
-    id: 'Marco_Canini',
     name: 'Marco Canini, King Abdullah University of Science and Technology',
     photo: 'Marco Canini.jpg',
     title: '',
@@ -84,7 +80,6 @@ const speakers = [
     academicPage: 'https://scholar.google.com/citations?user=c-rwMUkAAAAJ&hl=zh-CN'
   },
   {
-    id: 'Mohamed_WAHIB',
     name: 'Mohamed WAHIB, RIKEN',
     photo: 'Mohamed WAHIB.jpg',
     title: '',
@@ -93,6 +88,16 @@ const speakers = [
     bio: '',
     personalPage: 'https://www.r-ccs.riken.jp/en/research/labs/hpaisrt/',
     academicPage: 'https://scholar.google.com/citations?user=C3fmEegAAAAJ&hl=en'
+  },
+  {
+    name: 'Luo Mai, University of Edinburgh',
+    photo: 'Luo Mai.jpg',
+    title: '',
+    keynote: '',
+    abstract: '',
+    bio: '',
+    personalPage: 'https://luomai.github.io/',
+    academicPage: 'https://scholar.google.com/citations?user=I6GYccIAAAAJ&hl=en'
   }
 ]
 
