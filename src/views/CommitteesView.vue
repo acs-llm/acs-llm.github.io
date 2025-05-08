@@ -25,10 +25,6 @@
           research papers in refereed international journals and conferences.
         </p>
       </div>
-
-
-      <div class="title2 section-title">Program Committee</div>
-      <p class="pa-content p">Coming soon…</p>
     </div>
   </div>
 

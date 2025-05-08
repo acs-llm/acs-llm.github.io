@@ -21,7 +21,7 @@
         <!-- 演讲者信息 -->
         <div class="speaker-info">
           <h2 class="speaker-name">{{ speaker.name }}</h2>
-          <p><span class="bold">Speech:</span> <span class="bolder">{{ speaker.keynote }}</span></p>
+          <p><span class="bold">Speech:</span> <span class="bolder">{{ speaker.title }}</span></p>
           <p>
             <span class="bold">Abstract:</span> <span class="italic">{{ speaker.abstract }}</span>
           </p>
@@ -82,7 +82,7 @@ const speakers = [
   {
     name: 'Mohamed WAHIB, RIKEN',
     photo: 'Mohamed WAHIB.jpg',
-    title: 'Parallelism in LLMs: Beyond Data, Tensor, and Pipeline ParallelismParallelism in LLMs: Beyond Data, Tensor, and Pipeline Parallelism',
+    title: 'Parallelism in LLMs: Beyond Data, Tensor, and Pipeline Parallelism',
     keynote: '',
     abstract: 'Large Language Models (LLMs) require enormous computational resources to train and deploy effectively. While techniques like data, tensor, and pipeline parallelism have become standard approaches to distribute this workload, the next frontier in parallelism promises to push the boundaries of model scalability and efficiency even further. This talk explores emerging methods and strategies for parallelism beyond the current paradigms, focusing on optimizing memory utilization, improving inter-node communication, and leveraging hardware advancements. We will also discuss the challenges of scaling LLMs and how future innovations in parallelism can unlock unprecedented performance gains.',
     bio: 'Mohamed Wahib is a team leader of the “High Performance Artificial Intelligence Systems Research Team” at RIKEN Center for Computational Science (R-CCS), Kobe, Japan. Prior to that he worked as is a senior scientist at AIST/TokyoTech Open Innovation Laboratory, Tokyo, Japan. He received his Ph.D. in Computer Science from Hokkaido University, Japan. His research interests revolve around the central topic of high-performance programming systems, in the context of HPC and AI. He is actively working on several projects including AI-based science, as well as high-level frameworks for programming traditional scientific applications.',
@@ -92,10 +92,14 @@ const speakers = [
   {
     name: 'Luo Mai, University of Edinburgh',
     photo: 'Luo Mai.jpg',
-    title: '',
+    title: 'WaferLLM: Large Language Models at Wafer Scale and Beyond',
     keynote: '',
-    abstract: '',
-    bio: '',
+    abstract: 'Emerging wafer-scale AI accelerators integrate hundreds of thousands of cores with massive on-chip memory and ultra-high bandwidth, yet existing LLM inference systems—designed for GPUs—fail to leverage their full potential. In this talk, I’ll present WaferLLM, the first LLM inference system tailored for wafer-scale architectures. Guided by our new PLMRmodel, which captures key hardware characteristics, WaferLLM introduces wafer-scale parallelism and efficient LLM kernels—MeshGEMM and MeshGEMV—to optimize accelerator utilization. On real hardware (Cerebras WSE), WaferLLM achieves up to 200× better utilization, 606× faster and 22× more energy-efficient GEMV than advanced GPUs, enabling up to 2700 toks/sec/req and 39× faster decoding for widely used LLMs. In the end, if time permits, I will discuss our ongoing work on scaling AI systems beyond a single wafer.',
+    bio: 'Prof. Luo Mai is an Associate Professor in the School of Informatics at the University of Edinburgh, where he leads the Large-Scale Machine Learning Systems Group. He co-leads the UK EPSRC CDT in Machine Learning Systems and the ARIA project on Scaling AI Compute by 1000X.\n' +
+      '\n' +
+      'His research combines computer systems, machine learning, and data management, with work published at OSDI, SOSP, NSDI, VLDB, JMLR, ICML, NeurIPS, and ECCV. He has received awards from Google, Microsoft, Alibaba, and Tencent. He authored the open-source textbook Machine Learning Systems and co-founded projects such as TensorLayer, TorchOpt, and ServerlessLLM, together receiving more than 20K GitHub stars.\n' +
+      '\n' +
+      'He previously worked at Imperial College London and Microsoft Research, and earned his PhD with support from a Google Fellowship in Cloud Computing.',
     personalPage: 'https://luomai.github.io/',
     academicPage: 'https://scholar.google.com/citations?user=I6GYccIAAAAJ&hl=en'
   }
