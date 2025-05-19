@@ -84,7 +84,7 @@
             <!--            <li class="mark-red">Paper Submission Deadline: April 16, 2025</li>-->
             <!--            <li>Notification of Acceptance: May 15, 2025</li>-->
             <!--            <li>Camera-Ready Submission: May 31, 2025</li>-->
-            <li>Workshop Date: June 21, 2025</li>
+            <li>Workshop Date: June 21st, 2025</li>
           </ul>
         </div>
       </div>

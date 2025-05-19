@@ -2,7 +2,11 @@
   <el-affix>
     <el-menu class="menu" mode="horizontal" router :default-active="route.path">
       <div class="logo-content">
-        ACS-LLM Workshop
+        <img
+          src="@/assets/image/logo.png"
+          alt="ACS-LLM Workshop Logo"
+          class="logo-image"
+        />
       </div>
       <div class="menu-right">
         <el-menu-item index="/">HOME</el-menu-item>
