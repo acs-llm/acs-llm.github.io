@@ -29,7 +29,9 @@
       </div>
       <!-- 演讲者简历 -->
       <div class="speaker-bio">
-        <p><span class="bold">Bio:</span> {{ speaker.bio }}</p>
+        <p><span class="bold">Bio:</span>
+          <TextWithLinks :text="speaker.bio" />
+        </p>
       </div>
       <!-- 如果不是最后一个演讲者，添加分隔线 -->
       <el-divider v-if="index < speakers.length - 1" />
@@ -38,16 +40,22 @@
 </template>
 
 <script setup lang="ts">
+import { h } from 'vue'
+
+interface TextWithLinksProps {
+  text: string;
+}
+
 const speakers = [
   {
-    name: 'Stefanos Kaxiras, Uppsala University',
-    photo: 'Stefanos Kaxiras.jpg',
-    title: '',
+    name: 'Jun Sun, Singapore Management University',
+    photo: 'Jun_Sun.jpg',
+    title: 'Situational AI Safety',
     keynote: '',
-    abstract: '',
-    bio: '',
-    personalPage: 'https://www.uu.se/en/contact-and-organisation/staff?query=N9-1645',
-    academicPage: 'https://scholar.google.com/citations?user=-FYgbQwAAAAJ&hl=en'
+    abstract: 'As AI systems become more embedded in critical areas like healthcare, finance, law, and infrastructure, it’s becoming clear that one-size-fits-all safety measures aren’t enough. In this talk, I’ll introduce the idea of Situational AI Safety — a practical approach to making sure AI behavior aligns with the specific needs, roles, and contexts of different domains. Rather than relying on broad, general-purpose safety rules, this framework focuses on fine-tuned, context-aware controls. I’ll walk through several examples from our recent work to show how this plays out in real scenarios.',
+    bio: 'Jun Sun is a Professor at Singapore Management University (SMU). He earned his Bachelor’s and Ph.D. degrees in Computer Science from the National University of Singapore (NUS) in 2002 and 2006, respectively, and has been a faculty member since 2010. Professor Sun’s research interests span AI safety, software engineering, formal methods, and more. He is passionate about designing algorithms to solve challenging real-world problems and is equally devoted to enjoying life. Professor Sun has published over 300 journal articles and conference papers. His work has been recognized with ACM Distinguished Paper Awards multiple times. For more information, please visit his website: https://sunjun.site',
+    personalPage: 'https://faculty.smu.edu.sg/profile/sun-jun-6816',
+    academicPage: 'https://scholar.google.com/citations?user=DVsEyn0AAAAJ&hl=zh-CN'
   },
   {
     name: 'Bingsheng He, National University of Singapore',
@@ -107,6 +115,20 @@ const speakers = [
 
 const getImageUrl = (name: string) => {
   return new URL(`../assets/image/photos/${name}`, import.meta.url).href
+}
+
+const TextWithLinks = (props: TextWithLinksProps) => {
+  const parts = props.text.split(/(https?:\/\/\S+)/g)
+  console.log(parts)
+  return parts.map((part, i) =>
+    i % 2 === 1
+      ? h('a', {
+        href: part,
+        rel: 'noopener noreferrer',
+        target: '_blank'
+      }, part)
+      : part
+  )
 }
 </script>
 
