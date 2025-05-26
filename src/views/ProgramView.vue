@@ -54,7 +54,7 @@
       </tr>
       <tr>
         <td class="center">12:30 - 13:00</td>
-        <td>Panel：TBD</td>
+        <td>Panel：Performance, Accuracy, and Reliability Evaluation and Assurance for Large-scale AI Cluster Systems</td>
         <td>TBD</td>
       </tr>
       <tr>
