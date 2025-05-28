@@ -55,12 +55,12 @@
       <tr>
         <td class="center">12:30 - 13:00</td>
         <td>Panel：Performance, Accuracy, and Reliability Evaluation and Assurance for Large-scale AI Cluster Systems</td>
-        <td>TBD</td>
+        <td>All speakers</td>
       </tr>
       <tr>
         <td class="center">13:00 – 13:05</td>
         <td>Closing Speech</td>
-        <td>TBD</td>
+        <td>Hironori Washizaki<br>Waseda University</td>
       </tr>
       </tbody>
     </table>
