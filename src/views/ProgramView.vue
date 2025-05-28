@@ -50,7 +50,7 @@
       <tr>
         <td class="center">12:00 - 12:30</td>
         <td>Talk 6: Parallelism in LLMs: Beyond Data, Tensor, and Pipeline Parallelism</td>
-        <td>Mohamed WAHIB<br>RIKEN</td>
+        <td>Mohamed Wahib<br>RIKEN</td>
       </tr>
       <tr>
         <td class="center">12:30 - 13:00</td>

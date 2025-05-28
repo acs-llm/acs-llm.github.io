@@ -88,7 +88,7 @@ const speakers = [
     academicPage: 'https://scholar.google.com/citations?user=c-rwMUkAAAAJ&hl=en'
   },
   {
-    name: 'Mohamed WAHIB, RIKEN',
+    name: 'Mohamed Wahib, RIKEN',
     photo: 'Mohamed WAHIB.jpg',
     title: 'Parallelism in LLMs: Beyond Data, Tensor, and Pipeline Parallelism',
     keynote: '',
