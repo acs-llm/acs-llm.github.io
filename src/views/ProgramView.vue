@@ -15,7 +15,7 @@
         <td class="center">9:00 - 9:05</td>
         <td>Opening Address</td>
         <td>Jun Sun<br>Singapore Management University</td>
-        <td class="center" rowspan="5">TBD</td>
+        <td class="center" rowspan="5">Mohamed Wahib</td>
       </tr>
       <tr>
         <td class="center">9:05 - 9:35</td>
