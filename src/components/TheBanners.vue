@@ -9,8 +9,8 @@
             <Location />
           </el-icon>
           <a target="_blank"
-             href="https://www.google.com/maps/place/Waseda+University/@35.7087377,139.7170736,17z/data=!3m1!4b1!4m6!3m5!1s0x60188d1a4869b805:0x11e214c5de0808a8!8m2!3d35.7087334!4d139.7196485!16zL20vMDIxMnpw?hl=en&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
-             class="location">Waseda University</a>
+             href="https://maps.app.goo.gl/FLsUH4XaxZJoXt5s5"
+             class="location">Okuma Auditorium (Main)</a>, Waseda University
         </div>
         <div class="tip font-merri">Tokyo, Japan, June 21st, 2025</div>
       </div>
@@ -71,6 +71,7 @@ import { Location } from '@element-plus/icons-vue'
     }
 
   }
+
   .text::before {
     content: "";
     position: absolute;
